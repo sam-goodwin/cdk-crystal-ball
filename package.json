@@ -1,0 +1,21 @@
+{
+  "name": "sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "[ ! -d \"aws-cdk\" ] && git clone git@github.com:aws/aws-cdk.git --depth=1 || echo 'aws-cdk directory already exists'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.1",
+    "@tsconfig/node20": "^20.1.2",
+    "bun": "^1.0.33"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.19.0",
+    "dotenv": "^16.4.5"
+  }
+}

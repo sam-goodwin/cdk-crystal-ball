@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node20",
+  "exclude": ["node_modules", ".venv"],
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ESNext",
+    "declarationMap": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "typeRoots": ["node_modules/@types"]
+  }
+}
